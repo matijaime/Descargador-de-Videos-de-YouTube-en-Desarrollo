@@ -2,6 +2,11 @@
 
 Este proyecto está en desarrollo y tiene como objetivo crear un sitio web que permita a los usuarios descargar videos de YouTube de manera sencilla y eficiente. La aplicación se basa en la programación en Python y utiliza diversas bibliotecas y herramientas para llevar a cabo las descargas de videos.
 
+![imagen en blanco del proyect](https://github.com/matijaime/Descargador-de-Videos-de-YouTube-en-Desarrollo/assets/132183365/28ab3521-3078-4e73-a101-63a277479fae)
+
+![imagen en negro del proyect](https://github.com/matijaime/Descargador-de-Videos-de-YouTube-en-Desarrollo/assets/132183365/6bf9296d-864d-4d83-b8d5-908985845988)
+
+
 ## Características Clave
 
 - **Descarga de Videos de YouTube:** Los usuarios podrán ingresar la URL de un video de YouTube y descargarlo en diferentes formatos y resoluciones.
