@@ -1,0 +1,217 @@
+/* Estilos comunes */
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-image: radial-gradient(circle farthest-corner at 10% 20%, rgba(161, 255, 255, 1) 11.3%, rgba(6, 255, 255, 1) 41.2%, rgba(0, 216, 216, 1) 77.8%);
+}
+
+/* Estilos para el modo oscuro */
+body.modo-oscuro {
+    background-color: #111b22 !important;
+    color: #fff !important;
+    background-image: none !important; /* Puedes agregar esto si deseas eliminar el fondo degradado en el modo oscuro */
+}
+
+
+h1 {
+    font-size: 40px;
+    color: #000;
+    text-align: center;
+}
+
+form {
+    text-align: left;
+    padding: 20px;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    max-width: 400px;
+    background-color: #f2f2f2;
+    margin-top: 20px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+input[type="text"] {
+    width: 100%;
+    max-width: 300px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    line-height: 30px;
+    margin-bottom: -3px;
+}
+
+
+input[type="submit"] {
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: 100%;
+    
+}
+
+input[type="submit"]:hover {
+    background-color: #0056b3;
+
+    
+}
+
+.center-text {
+    text-align: center;
+    margin-top: 10px;
+}
+
+/* Estilos para el modo oscuro */
+.modo-oscuro body {
+    background-color: #111 !important;
+    color: #fff !important;
+}
+
+.modo-oscuro h1 {
+    color: #fff;
+}
+
+.modo-oscuro form {
+    border-color: #333 !important;
+    background-color: #333 !important;
+    color: #fff !important;
+}
+
+.modo-oscuro label {
+    color: #fff !important;
+}
+
+.modo-oscuro input[type="text"] {
+    background-color: #333 !important;
+    color: #fff !important;
+}
+
+.modo-oscuro input[type="submit"] {
+    background-color: #333 !important;
+    color: #fff !important;
+    border-color: #555 !important;
+}
+
+.modo-oscuro.center-text {
+    color: #fff !important;
+}
+
+.modo-oscuro .switch .slider {
+    background-color: #f4f4f5;
+}
+
+.modo-oscuro .switch .slider:before {
+    background: linear-gradient(40deg, #ff0080, #ff8c00 70%);
+}
+
+.modo-oscuro .switch input:checked + .slider {
+    background-color: #303136;
+}
+
+.modo-oscuro .switch input:checked + .slider:before {
+    background: #303136;
+    box-shadow: inset -3px -2px 5px -2px #8983f7, inset -10px -4px 0 0 #a3dafb;
+}
+
+/* Estilos para el botón de modo oscuro */
+#modo-oscuro-container {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 999;
+    display: block;
+    --width-of-switch: 3.5em;
+    --height-of-switch: 2em;
+    --size-of-icon: 1.4em;
+    --slider-offset: 0.3em;
+    width: var(--width-of-switch);
+    height: var(--height-of-switch);
+}
+
+.switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+.switch .slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #f4f4f5;
+    transition: .4s;
+    border-radius: 30px;
+}
+
+.switch .slider:before {
+    position: absolute;
+    content: "";
+    height: var(--size-of-icon,1.4em);
+    width: var(--size-of-icon,1.4em);
+    border-radius: 20px;
+    left: var(--slider-offset,0.3em);
+    top: 50%;
+    transform: translateY(-50%);
+    background: linear-gradient(40deg,#ff0080,#ff8c00 70%);
+    transition: .4s;
+}
+
+.switch input:checked + .slider {
+    background-color: #303136;
+}
+
+.switch input:checked + .slider:before {
+    left: calc(100% - (var(--size-of-icon,1.4em) + var(--slider-offset,0.3em)));
+    background: #303136;
+    box-shadow: inset -3px -2px 5px -2px #8983f7, inset -10px -4px 0 0 #a3dafb;
+}
+
+body.modo-oscuro {
+    background-color: #000 !important;
+    color: #fff !important;
+}
+
+.modo-oscuro #descargar {
+    background-color: #fff !important;
+    color: #000 !important;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* Agrega una transición suave al cambiar al modo oscuro */
+body {
+    transition: background-color 0.5s ease, color 0.5s ease;
+}
+
+/* Estilos para el botón de descarga en modo oscuro */
+.modo-oscuro .descargar-button {
+    background-color: #fff !important;
+    color: #000 !important;
+}
+
+/* Agrega una transición suave al cambiar al modo normal */
+body:not(.modo-oscuro) {
+    transition: background-color 0.10s ease, color 0.20s ease;
+}

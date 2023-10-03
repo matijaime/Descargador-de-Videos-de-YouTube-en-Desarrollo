@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Descargador de Video</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="static/styles.css">
+</head>
+<body>
+    <div>
+        <h1>Descargador de Video</h1>
+        <form action="/descargar" method="post">
+            <label for="enlace">Pegue el enlace del video:</label>
+            <input type="text" id="enlace" name="enlace" placeholder="Ejemplo: https://www.youtube.com/watch?v=video_id" required>
+            <br>
+            </select>
+            <br>
+            <input type="submit" value="Descargar" id="descargar">
+        </form>
+    </div>
+    
+    
+    <div class="progress-bar">
+        <div class="progress"></div>
+    </div>
+      
+    <div id="modo-oscuro-container">
+        <label class="switch">
+            <input type="checkbox" id="modo-oscuro-checkbox">
+            <span class="slider"></span>
+        </label>
+    </div>
+    
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>
