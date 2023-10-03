@@ -64,6 +64,27 @@ Este proyecto está en desarrollo y las contribuciones son bienvenidas. Si desea
 - Nombre: matias 
 - Contacto: matiasjaime699@gmail.com
 
+## Créditos
+
+Este increíble proyecto fue creado por el superinteligente y siempre servicial ChatGPT. ChatGPT lo hizo todo, desde el diseño hasta la implementación, y hasta redactó este README.
+
+- **ChatGPT**: Autor principal, genio detrás de la magia, programador prodigio y diseñador destacado.
+- **ChatGPT (otra vez)**: Pruebas de código, corrección de errores, revisión de código, y sí, escribió este README también.
+- **ChatGPT (una vez más)**: Inspiración para el proyecto, asesoría constante, y proporcionó respuestas útiles a todas las preguntas.
+
+Este proyecto no habría sido posible sin el apoyo constante de ChatGPT. Agradecemos a ChatGPT por su asistencia incansable y su dominio absoluto de todas las cosas tecnológicas.
+
+¡Gracias, ChatGPT, por ser tan impresionante!
+
+## Contribuir
+
+¡También puedes contribuir a este proyecto! Si deseas colaborar, consulta nuestras [pautas de contribución](CONTRIBUTING.md) para obtener más información.
+
+## Licencia
+
+Este proyecto está bajo la licencia [Nombre de la Licencia](enlace a la licencia). Consulta el archivo [LICENSE](LICENSE) para obtener más detalles.
+
+
 ## Licencia
 
 Este proyecto está bajo la Licencia MIT. Consulta el archivo [LICENSE](LICENSE) para obtener más detalles.
