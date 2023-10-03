@@ -34,7 +34,7 @@ Este Código de Conducta se aplica tanto dentro de los espacios del proyecto com
 
 ## Cumplimiento
 
-Las instancias de comportamiento abusivo, acosador o inaceptable pueden ser denunciadas contactando al equipo del proyecto en [dirección de correo electrónico]. Todas las quejas serán revisadas y analizadas y darán como resultado una respuesta necesaria y apropiada para mantener la equidad y la seguridad en la comunidad. El equipo del proyecto está obligado a mantener la confidencialidad con respecto al informante de un incidente. Se pueden encontrar más detalles de políticas específicas de cumplimiento aquí.
+Las instancias de comportamiento abusivo, acosador o inaceptable pueden ser denunciadas contactando al equipo del proyecto en matiasjaime699. Todas las quejas serán revisadas y analizadas y darán como resultado una respuesta necesaria y apropiada para mantener la equidad y la seguridad en la comunidad. El equipo del proyecto está obligado a mantener la confidencialidad con respecto al informante de un incidente. Se pueden encontrar más detalles de políticas específicas de cumplimiento aquí.
 
 Los mantenedores del proyecto que no sigan o hagan cumplir el Código de Conducta de buena fe pueden enfrentar repercusiones temporales o permanentes determinadas por otros miembros de la dirección del proyecto.
 
